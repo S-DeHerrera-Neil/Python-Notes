@@ -5,8 +5,8 @@ This command will login to our linops as student:
 ## For Loop
 This is a for loop example
 "Print each fruit in a fruit list:"
-'''
+```
 fruits = ["apple", "baana", "cherry"]
 for x in fruits:
 print(x)
-'''
+```
