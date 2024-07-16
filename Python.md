@@ -32,9 +32,12 @@ print(EmailTLD)
 #Desired Result^
 */
 
-#take data and put in string
-print('{} will be'.format(email[0]))
+##Fellowship Example .append()##
+/*
+fellowship = ''
+fellowship
 
+*/
 # Practical Exercise 0-1 - Configure your editor
 # Activity - Split an email address
 # Practical Exercise 0-2 - FizzBuzz
