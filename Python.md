@@ -16,6 +16,7 @@ print(x)
 
 # Day_2 07/16/2024 
         # *Activity - Split an email Address
+word = 'hello'
 
 
 Practical Exercise 0-1 - Configure your editor
