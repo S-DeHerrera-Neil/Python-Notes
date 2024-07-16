@@ -56,6 +56,21 @@ blank.append(email2[1].split('.')[1])
 print(blank)
 */
 ## Flow Controls ##
+/*
+input('Type Something: ')
+
+input ('Type Something :\n')
+
+num = int(input('Type a Number :\n'))
+
+if num == 7:
+    print('This is true')
+elif num > 7:
+        print('num' + str(num) + ' is < 7')
+elif num >7 and num < 20:
+        print(str(num) + ' is between 7 and 20')
+*/
+
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
 # Practical Exercise 0-2 - FizzBuzz
