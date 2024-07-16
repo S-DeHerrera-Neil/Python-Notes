@@ -86,6 +86,14 @@ else:
 # on vim make sure you have the appropriate indentations & print(num)
 */
 
+## For Loop example 1 ##
+/*
+beer = ['Coors', 'Coors Light', 'Coors Banquet']
+for anything in beer:
+    print(anything)
+*/
+## For Loop example 2 ##
+
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
 # Practical Exercise 0-2 - FizzBuzz
