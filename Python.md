@@ -83,6 +83,7 @@ elif num %3 * num %5 == 0:
         print('fizzbuzz')
 else:
         print('This is the end, thank goodness')
+# on vim make sure you have the appropriate indentations & print(num)
 */
 
         # Practical Exercise 0-1 - Configure your editor
