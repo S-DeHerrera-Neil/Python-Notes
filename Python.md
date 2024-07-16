@@ -98,11 +98,24 @@ xmen = ['Superman', 'Night Crawler', 'Deadpool', 'Storm']
 for hero in xmen:
     if hero == 'Superman':
         print('WRONG UNIVERSE')
-    elif hero == 'Deadpool':
+    elif hero == 'Deadpoblank = []
+email = 'name@domain.com'ol':
         print(hero + 'is the best one!')
     else:
         print('This is a Marvel hero')
 */
+
+## While loop example 1 ##
+/*
+#while <condition>
+num = 0
+while num < 5:
+    print(num)
+    num += 1
+*/
+
+
+        
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
         # Practical Exercise 0-2 - FizzBuzz
