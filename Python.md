@@ -34,8 +34,11 @@ print(EmailTLD)
 
 ##Fellowship Example .append()##
 /*
-fellowship = ''
-fellowship
+fellowship = []
+fellowship.append('Frodo')
+fellowship.append('Sam')
+fellowship.append('Mary')
+fellowshit.append('Pip')
 
 */
 # Practical Exercise 0-1 - Configure your editor
