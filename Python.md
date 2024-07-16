@@ -1,5 +1,7 @@
 # Day_1 07/15/2024 
 
+# '''(Tripple quote for Multi-Line comments)
+
         ## SSH Command ##
 This command will login to our linops as student:
 # 10.50.27.61(linux/lin-ops) 10.50.39.134(Windows/)
