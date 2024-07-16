@@ -56,6 +56,7 @@ blank.append(email2[1].split('.')[1])
 print(blank)
 */
 ## Flow Controls ##
+        #Bad Eaxmple Below#
 /*
 input('Type Something: ')
 
@@ -69,6 +70,18 @@ elif num > 7:
 elif num > 7 and num < 20:
         print(str(num) + ' is between 7 and 20')
 else: 
+        print('This is the end, thank goodness')
+*/
+## FizzBuzz example ##
+/*
+num = int(input('Guess a number:\n'))
+if num %3 == 0:
+    print('fizz')
+elif num %5 == 0:
+        print('buzz')
+elif num %3 * num %5 == 0:
+        print('fizzbuzz')
+else:
         print('This is the end, thank goodness')
 */
 
