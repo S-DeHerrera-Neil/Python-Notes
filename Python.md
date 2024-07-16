@@ -18,18 +18,22 @@ print(x)
         # *Activity - Split an email Address
 email = 'name@domain.com'
 
-#
+## Email Activity ##
+/*
+email = "name@domain.com"
 
-email = name@domain.com
-type
+EmailUserName = email.split('@')
+EmailDomain = ('.').join(EmailUserName)
+EmailTLD = EmailDomain.split('.')
 
-\*
-email.append('name')
-email.append('@domain')
-email.append('.com')
+print(EmailTLD)
+
+#list = ['name', '@domain', 'com']
+#Desired Result^
 */
 
-#''.format()
+#take data and put in string
+print('{} will be'.format(email[0]))
 
 # Practical Exercise 0-1 - Configure your editor
 # Activity - Split an email address
