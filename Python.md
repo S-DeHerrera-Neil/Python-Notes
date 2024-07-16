@@ -6,7 +6,7 @@ This command will login to our linops as student:
 # command: terminator (opens a terminal that allows you to split screens)
 'ssh student@10.50.27.61 -X'
         ## For Loop ##
-This is a for loop example
+ This is a for loop example
 "Print each fruit in a fruit list:"
 ```
 fruits = ["apple", "banana", "cherry"]
@@ -19,13 +19,13 @@ print(x)
 word = 'hello'
 
 
-Practical Exercise 0-1 - Configure your editor
-Activity - Split an email address
-Practical Exercise 0-2 - FizzBuzz
-Practical Exercise 0-3 - Guess the Number
-Practical Exercise 1-1 - Invert and Inverted
-Practical Exercise 1-2 - Least Significant Bit (LSB) Steganography - Encode a Single Character
-Practical Exercise 1-3 - Least Significant Bit (LSB) Steganography - Encode Multiple Characters
-Practical Exercise 1-4 - Portable Grey Map Steganography
-Practical Exercise 2-1 - Raw Portable Grey Map LSB Steganography
-Practical Exercise 2-3 - Botnets
+# Practical Exercise 0-1 - Configure your editor
+# Activity - Split an email address
+# Practical Exercise 0-2 - FizzBuzz
+# Practical Exercise 0-3 - Guess the Number
+# Practical Exercise 1-1 - Invert and Inverted
+# Practical Exercise 1-2 - Least Significant Bit (LSB) Steganography - Encode a Single Character
+# Practical Exercise 1-3 - Least Significant Bit (LSB) Steganography - Encode Multiple Characters
+# Practical Exercise 1-4 - Portable Grey Map Steganography
+# Practical Exercise 2-1 - Raw Portable Grey Map LSB Steganography
+# Practical Exercise 2-3 - Botnets
