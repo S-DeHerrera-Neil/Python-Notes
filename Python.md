@@ -43,6 +43,24 @@ fellowship.append('Mary')
 fellowshit.append('Pip')
 
 */
+###        ###
+*/
+blank = []
+email = 'name@domain.com'
+email2 = email.split('@')
+email3 = email.split('.')
+
+print(email2[1].split('.'))
+print(email2)
+#print(email3)
+
+
+blank.append(email2[0])
+blank.append(email2[1].split('.')[0])
+
+print(blank)
+*/
+
 # Practical Exercise 0-1 - Configure your editor
 # Activity - Split an email address
 # Practical Exercise 0-2 - FizzBuzz
