@@ -93,7 +93,16 @@ for anything in beer:
     print(anything)
 */
 ## For Loop example 2 ##
-
+/*
+xmen = ['Superman', 'Night Crawler', 'Deadpool', 'Storm']
+for hero in xmen:
+    if hero == 'Superman':
+        print('WRONG UNIVERSE')
+    elif hero == 'Deadpool':
+        print(hero + 'is the best one!')
+    else:
+        print('This is a Marvel hero')
+*/
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
 # Practical Exercise 0-2 - FizzBuzz
