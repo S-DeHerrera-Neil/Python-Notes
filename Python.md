@@ -75,12 +75,12 @@ else:
 ## FizzBuzz example ## I did this one!!!
 /*
 num = int(input('Guess a number:\n'))
-if num %3 == 0:
-    print('fizz')
+if num %3 == 0 and num %5 == 0:
+    print('fizzbuzz')
 elif num %5 == 0:
-        print('buzz')
-elif num %3 * num %5 == 0:
-        print('fizzbuzz')
+    print('buzz')
+elif num %3 == 0:
+    print('fizz')
 else:
         print('This is the end, thank goodness')
 # on vim make sure you have the appropriate indentations & print(num)
