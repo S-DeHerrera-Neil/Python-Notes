@@ -18,6 +18,7 @@ print(x)
         # *Activity - Split an email Address
 word = 'hello'
 
+tuple(word)
 
 # Practical Exercise 0-1 - Configure your editor
 # Activity - Split an email address
