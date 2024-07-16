@@ -61,14 +61,15 @@ input('Type Something: ')
 
 input ('Type Something :\n')
 
-num = int(input('Type a Number :\n'))
-
+num = int(input('Type a number:\n'))
 if num == 7:
-    print('This is true')
+    print('This is True')
 elif num > 7:
-        print('num' + str(num) + ' is < 7')
-elif num >7 and num < 20:
+        print('num ' + str(num) + ' is < 7')
+elif num > 7 and num < 20:
         print(str(num) + ' is between 7 and 20')
+else:
+        print('This is the end, thank goodness')
 */
 
         # Practical Exercise 0-1 - Configure your editor
