@@ -55,7 +55,7 @@ blank.append(email2[1].split('.')[1])
 
 print(blank)
 */
-## Flow Controls ##
+## Flow Controls input() ##
         #Bad Eaxmple Below#
 /*
 input('Type Something: ')
