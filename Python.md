@@ -43,7 +43,7 @@ fellowship.append('Mary')
 fellowshit.append('Pip')
 
 */
-###        ###
+### Spliting and Appending Email Addresses ###
 */
 blank = []
 email = 'name@domain.com'
