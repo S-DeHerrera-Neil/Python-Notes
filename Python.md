@@ -18,7 +18,18 @@ print(x)
         # *Activity - Split an email Address
 word = 'hello'
 
-tuple(word)
+#
+
+email = name@domain.com
+type
+
+\*
+email.append('name')
+email.append('@domain')
+email.append('.com')
+*/
+
+#''.format()
 
 # Practical Exercise 0-1 - Configure your editor
 # Activity - Split an email address
