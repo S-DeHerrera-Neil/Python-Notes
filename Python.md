@@ -55,7 +55,7 @@ blank.append(email2[1].split('.')[1])
 
 print(blank)
 */
-
+## Flow Controls ##
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
 # Practical Exercise 0-2 - FizzBuzz
