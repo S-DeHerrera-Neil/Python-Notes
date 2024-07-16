@@ -105,7 +105,7 @@ for hero in xmen:
 */
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
-# Practical Exercise 0-2 - FizzBuzz
+        # Practical Exercise 0-2 - FizzBuzz
 # Practical Exercise 0-3 - Guess the Number
 # Practical Exercise 1-1 - Invert and Inverted
 # Practical Exercise 1-2 - Least Significant Bit (LSB) Steganography - Encode a Single Character
