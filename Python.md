@@ -23,7 +23,7 @@ email = 'name@domain.com'
 email = "name@domain.com"
 
 EmailUserName = email.split('@')
-EmailDomain = ('.').join(EmailUserName)
+EmailDomain = '.'.join(EmailUserName)
 EmailTLD = EmailDomain.split('.')
 
 print(EmailTLD)
