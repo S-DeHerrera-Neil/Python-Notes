@@ -16,7 +16,7 @@ print(x)
 
 # Day_2 07/16/2024 
         # *Activity - Split an email Address
-word = 'hello'
+email = 'name@domain.com'
 
 #
 
