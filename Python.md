@@ -177,6 +177,31 @@ alphabet
 inventory = {'CFB25': 69.99, 'MVP': 149.99, 'wheels': 5}
  for game in inventory:
      print(inventory[game])
+##
+order = (['wheels',5],['MVP' ,2])
+order
+(['wheels', 5], ['MVP', 2])
+inventory = {'CFB25': 69.99, 'MVP': 149.99, 'wheels': 5}
+order
+(['wheels', 5], ['MVP', 2])
+for i in order:
+     print(i)
+           
+
+['wheels', 5]
+['MVP', 2]
+ order
+(['wheels', 5], ['MVP', 2])
+ order[0]
+['wheels', 5]
+ order[0][-1]
+5
+ for i in order:
+...     total += inventory[i[0]] * i[1]
+...     print(total)
+
+
+
 
  
 
