@@ -100,8 +100,7 @@ xmen = ['Superman', 'Night Crawler', 'Deadpool', 'Storm']
 for hero in xmen:
     if hero == 'Superman':
         print('WRONG UNIVERSE')
-    elif hero == 'Deadpoblank = []
-email = 'name@domain.com'ol':
+    elif hero == 'Deadpool':
         print(hero + 'is the best one!')
     else:
         print('This is a Marvel hero')
