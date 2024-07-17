@@ -235,6 +235,16 @@ with open('school_prompt.txt') as fp:
         three.append(line.split()[2])
 
 #6
+emotions = []
+with open('emotion_words.txt') as fp:
+    for line in fp:
+        emotions.append(line.split()[0])
+
+#7
+with open('travel_plans.txt') as fp:
+    first_chars = fp.read(33)
+
+
 
 
 # Practical Exercise 1-1 - Invert and Inverted
