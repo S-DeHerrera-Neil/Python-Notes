@@ -57,7 +57,7 @@ print(blank)
 
 ## Flow Controls input() ##
         #Bad Eaxmple Below#
-
+romanNumerals = {'I':1, 'V':5, 'X':10, 'L':50}
 input('Type Something: ')
 
 input ('Type Something :\n')
@@ -172,6 +172,12 @@ for i in range(97,123):
 alphabet
 #Result is lower case alphabet put in list called alphabet
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+## Game example ##
+inventory = {'CFB25': 69.99, 'MVP': 149.99, 'wheels': 5}
+ for game in inventory:
+     print(inventory[game])
+
  
 
 # Practical Exercise 1-1 - Invert and Inverted
