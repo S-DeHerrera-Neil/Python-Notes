@@ -21,7 +21,7 @@ print(x)
 email = 'name@domain.com'
 
 ## Email Activity ##
-/*
+
 email = "name@domain.com"
 
 EmailUserName = email.split('@')
@@ -32,19 +32,19 @@ print(EmailTLD)
 
 #list = ['name', '@domain', 'com']
 #Desired Result^
-*/
+
 
 ##Fellowship Example .append()##
-/*
+
 fellowship = []
 fellowship.append('Frodo')
 fellowship.append('Sam')
 fellowship.append('Mary')
 fellowshit.append('Pip')
 
-*/
+
 ### Spliting and Appending Email Addresses ###
-*/
+
 blank = []
 email = 'name@domain.com'
 email2 = email.split('@')
@@ -54,10 +54,10 @@ blank.append(email2[1].split('.')[0])
 blank.append(email2[1].split('.')[1])
 
 print(blank)
-*/
+
 ## Flow Controls input() ##
         #Bad Eaxmple Below#
-/*
+
 input('Type Something: ')
 
 input ('Type Something :\n')
@@ -71,9 +71,9 @@ elif num > 7 and num < 20:
         print(str(num) + ' is between 7 and 20')
 else: 
         print('This is the end, thank goodness')
-*/
+
 ## FizzBuzz example ## I did this one!!!
-/*
+
 num = int(input('Guess a number:\n'))
 if num %3 == 0 and num %5 == 0:
     print('fizzbuzz')
@@ -84,16 +84,16 @@ elif num %3 == 0:
 else:
         print('This is the end, thank goodness')
 # on vim make sure you have the appropriate indentations & print(num)
-*/
+
 
 ## For Loop example 1 ##
-/*
+
 beer = ['Coors', 'Coors Light', 'Coors Banquet']
 for anything in beer:
     print(anything)
-*/
+
 ## For Loop example 2 ##
-/*
+
 xmen = ['Superman', 'Night Crawler', 'Deadpool', 'Storm']
 for hero in xmen:
     if hero == 'Superman':
@@ -103,10 +103,10 @@ email = 'name@domain.com'ol':
         print(hero + 'is the best one!')
     else:
         print('This is a Marvel hero')
-*/
+
 
 ## While loop example 1 ##
-/*
+
 #while <condition>
 num = 0
 while num < 5:
