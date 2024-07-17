@@ -61,19 +61,17 @@ print(blank)
 
 ## Flow Controls input() ##
         #Bad Eaxmple Below#
-romanNumerals = {'I':1, 'V':5, 'X':10, 'L':50}
-input('Type Something: ')
 
-input ('Type Something :\n')
+        input ('Type Something :\n')
 
-num = int(input('Type a number:\n'))
-if num == 7:
+        num = int(input('Type a number:\n'))
+        if num == 7:
     print('This is True')
-elif num > 7:
+        elif num > 7:
         print('num ' + str(num) + ' is < 7')
-elif num > 7 and num < 20:
+        elif num > 7 and num < 20:
         print(str(num) + ' is between 7 and 20')
-else: 
+        else: 
         print('This is the end, thank goodness')
 
 ## FizzBuzz example ## I did this one!!!
