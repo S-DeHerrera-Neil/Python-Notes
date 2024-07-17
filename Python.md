@@ -126,7 +126,14 @@ def test():
             print("This is 'break'")
         elif usr == 'continue':
             continue
-            print("This is 'continue'")
+            print("This is 'continualphabet = []
+>>> for i in range(97,123):
+...     alphabet.append(chr(i))
+... 
+>>> alphabet
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+>>> 
+e'")
         elif usr == 'return':
             return "This is 'return'"
         else:
@@ -160,6 +167,18 @@ def guess_number(n):
 guess_number(23)
 */
 
+/*
+## make a list called alphabet
+alphabet = []
+for i in range(97,123):
+    alphabet.append(chr(i))
+ 
+alphabet
+#Result is lower case alphabet put in list called alphabet
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+ 
+
+*/
 
 # Practical Exercise 1-1 - Invert and Inverted
 # Practical Exercise 1-2 - Least Significant Bit (LSB) Steganography - Encode a Single Character
