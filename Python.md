@@ -144,6 +144,23 @@ test()
 # Day_1 07/17/2024 
         
         # Practical Exercise 0-3 - Guess the Number
+/*
+#!/usr/bin/env python3
+
+def guess_number(n):
+    while True:
+        usr = int(input('Guess a Number between 0-100:\n'))
+        if n == usr:
+            print('WIN')
+            break
+        elif usr < n:
+            print('too low')
+        elif usr > n:
+            print('too high')
+guess_number(23)
+*/
+
+
 # Practical Exercise 1-1 - Invert and Inverted
 # Practical Exercise 1-2 - Least Significant Bit (LSB) Steganography - Encode a Single Character
 # Practical Exercise 1-3 - Least Significant Bit (LSB) Steganography - Encode Multiple Characters
