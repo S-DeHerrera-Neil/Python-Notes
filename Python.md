@@ -200,10 +200,42 @@ for i in order:
 ...     total += inventory[i[0]] * i[1]
 ...     print(total)
 
+## How SSgt Rung wants us to open files ##
+with open("test.txt") as fp:
+    pass
+##
+fp.write('First line\n')
+     lines = ['Second line\n', 'Third line\n', 'Fourth line\n', 'Last line\n']
+     fp.writelines(lines)
 
+#runestone examples#
 
+#1
+with open('travel_plans.txt') as fp:
+    num = len(fp.read())
+print(num)
 
- 
+#2
+with open('emotion_words.txt') as fp:
+    num_words = len(fp.read().split())
+
+#3
+with open('school_prompt.txt') as fp:
+    num_lines = len(fp.readlines())
+
+#4
+with open('school_prompt.txt') as fp:
+    beginning_chars = fp.read(30)
+    print(beginning_chars)
+
+#5
+three = []
+with open('school_prompt.txt') as fp:
+    for line in fp:
+        three.append(line.split()[2])
+
+#6
+
 
 # Practical Exercise 1-1 - Invert and Inverted
 # Practical Exercise 1-2 - Least Significant Bit (LSB) Steganography - Encode a Single Character
