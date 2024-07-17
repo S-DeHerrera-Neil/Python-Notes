@@ -36,11 +36,14 @@ print(EmailTLD)
 
 ##Fellowship Example .append()##
 
+#!/usr/bin/env python3
+
 fellowship = []
 fellowship.append('Frodo')
 fellowship.append('Sam')
 fellowship.append('Mary')
-fellowshit.append('Pip')
+fellowship.append('Pip')
+print(fellowship)
 
 
 ### Spliting and Appending Email Addresses ###
@@ -126,10 +129,10 @@ def test():
         elif usr == 'continue':
             continue
             print("This is 'continualphabet = []
->>> for i in range(97,123):
-...     alphabet.append(chr(i))
-... 
->>> alphabet
+                for i in range(97,123):
+     alphabet.append(chr(i))
+ ###
+alphabet
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 >>> 
 e'")
@@ -197,8 +200,8 @@ for i in order:
  order[0][-1]
 5
  for i in order:
-...     total += inventory[i[0]] * i[1]
-...     print(total)
+     total += inventory[i[0]] * i[1]
+     print(total)
 
 ## How SSgt Rung wants us to open files ##
 with open("test.txt") as fp:
