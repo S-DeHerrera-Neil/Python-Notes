@@ -61,9 +61,8 @@ print(blank)
 
 ## Flow Controls input() ##
         #Bad Eaxmple Below#
-
+        '''
         input ('Type Something :\n')
-
         num = int(input('Type a number:\n'))
         if num == 7:
     print('This is True')
@@ -73,6 +72,7 @@ print(blank)
         print(str(num) + ' is between 7 and 20')
         else: 
         print('This is the end, thank goodness')
+        '''
 
 ## FizzBuzz example ## I did this one!!!
 
