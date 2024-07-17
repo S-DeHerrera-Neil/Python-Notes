@@ -112,9 +112,8 @@ num = 0
 while num < 5:
     print(num)
     num += 1
-*/
         ## Pass, Break, Continue and Return Examples ##
-/*
+
 def test():
     while True:
         usr = input("Type 'Pass', 'Break', 'Continue' or 'Return':\n ").lower()
@@ -143,7 +142,6 @@ test()
         
 #'HeLlo'.upper
 #'HeLlo'.lower
-*/
         
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
@@ -151,7 +149,7 @@ test()
 # Day_1 07/17/2024 
         
         # Practical Exercise 0-3 - Guess the Number
-/*
+
 #!/usr/bin/env python3
 
 def guess_number(n):
@@ -165,9 +163,7 @@ def guess_number(n):
         elif usr > n:
             print('too high')
 guess_number(23)
-*/
 
-/*
 ## make a list called alphabet
 alphabet = []
 for i in range(97,123):
@@ -177,8 +173,6 @@ alphabet
 #Result is lower case alphabet put in list called alphabet
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
  
-
-*/
 
 # Practical Exercise 1-1 - Invert and Inverted
 # Practical Exercise 1-2 - Least Significant Bit (LSB) Steganography - Encode a Single Character
