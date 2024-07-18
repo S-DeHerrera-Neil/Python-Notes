@@ -1,6 +1,26 @@
 #Q1
+def q1(floatstr):
+    
+#print(floatstr)
+#print(type(floatstr))
+    lst = []
+for i in floatstr.split(','):
+    lst.append(float(i))
+return lst
+pass
 #Q2
+def q2(*args):
+    print(args)
+    print(type(args))
+    total = 0
+    for i in args:
+    total += i
+    return total/len(args)
+    print(i)
+    
+pass
 #Q3
+
 #Q4
 #Q5
 #Q6
