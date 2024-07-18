@@ -10,8 +10,8 @@ return lst
 pass
 #Q2
 def q2(*args):
-    print(args)
-    print(type(args))
+    #print(args)
+    #print(type(args))
     total = 0
     for i in args:
     total += i
@@ -20,9 +20,28 @@ def q2(*args):
     
 pass
 #Q3
+def q3(lst,n):
 
+#print(lst)
+#print(type(lst))
+#print(n)
+#print(type(n))
+
+    return lst[-n::]
+    pass
 #Q4
+def q4(strng):
+  
+    #print(str)
+    #print(type(strng))
+    lst = []
+    for i in strng:
+        #print(ord(i))
+        lst.append(ord(i))
+    return lst
+    pass
 #Q5
+
 #Q6
 #Q7
 #Q8
