@@ -80,3 +80,18 @@ def q9(miltime):
         return "Good Night Chesty Puller, wherever you are"
     pass
 #Q10
+def q10(numlist):
+    
+    #print(numlist)
+    #print(type(numlist))
+    for i in numlist:
+        if i < 0:
+            return False
+    else:
+    return True
+    pass
+
+#shows you if a string is numeric
+>>> 'a'.isnumeric()
+
+>>> '1'.isnumeric()
