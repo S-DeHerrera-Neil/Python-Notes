@@ -113,8 +113,9 @@ num = 0
 while num < 5:
     print(num)
     num += 1
+        
         ## Pass, Break, Continue and Return Examples ##
-
+'''
 def test():
     while True:
         usr = input("Type 'Pass', 'Break', 'Continue' or 'Return':\n ").lower()
@@ -126,14 +127,7 @@ def test():
             print("This is 'break'")
         elif usr == 'continue':
             continue
-            print("This is 'continualphabet = []
-                for i in range(97,123):
-     alphabet.append(chr(i))
- ###
-alphabet
-['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
->>> 
-e'")
+            print("This is 'continue'")
         elif usr == 'return':
             return "This is 'return'"
         else:
@@ -143,6 +137,22 @@ test()
         
 #'HeLlo'.upper
 #'HeLlo'.lower
+'''
+            
+            '''
+            alphabet = []
+                for i in range(97,123):
+     alphabet.append(chr(i))
+            '''
+            lphabet = []
+                for i in range(97,123):
+     alphabet.append(chr(i))
+ #Result from ^ should like the result below.
+alphabet
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+>>> 
+e'")
+
         
         # Practical Exercise 0-1 - Configure your editor
         # Activity - Split an email address
