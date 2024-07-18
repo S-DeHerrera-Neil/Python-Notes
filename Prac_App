@@ -41,9 +41,21 @@ def q4(strng):
     return lst
     pass
 #Q5
-
+    #print(strng)
+    #print(type(strng))
+    return tuple(strng.split())
+    pass
 #Q6
+total = 0
+for i in order:
+    #print(catalog[i[0]])
+    total += catalog[i[0]] * i[1]      
+    return total
+    pass
 #Q7
+
 #Q8
+
 #Q9
+
 #Q10
