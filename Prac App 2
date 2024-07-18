@@ -8,8 +8,11 @@ print(Mylist)
 Newlist = []
 for i in range(len(Mylist) - 1,-1, -1):
   #print(i)
+  Newlist.append(Mylist[i])
+  #print(Newlist)
   
 pass
+q1('hello world pie test')
 #Q2
 #Q3
 #Q4
