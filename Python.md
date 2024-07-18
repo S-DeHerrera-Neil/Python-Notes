@@ -138,13 +138,20 @@ test()
 #'HeLlo'.upper
 #'HeLlo'.lower
 '''
-            
+## make a list called alphabet
+alphabet = []
+for i in range(97,123):
+    alphabet.append(chr(i))
+ 
+alphabet
+#Result is lower case alphabet put in list called alphabet
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']            
             '''
             alphabet = []
                 for i in range(97,123):
      alphabet.append(chr(i))
             '''
-            lphabet = []
+            alphabet = []
                 for i in range(97,123):
      alphabet.append(chr(i))
  #Result from ^ should like the result below.
@@ -175,14 +182,7 @@ def guess_number(n):
             print('too high')
 guess_number(23)
 
-## make a list called alphabet
-alphabet = []
-for i in range(97,123):
-    alphabet.append(chr(i))
- 
-alphabet
-#Result is lower case alphabet put in list called alphabet
-['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
 
 ## Game example ##
 inventory = {'CFB25': 69.99, 'MVP': 149.99, 'wheels': 5}
