@@ -1,0 +1,22 @@
+#Q1
+def q1(sentance):
+#split string into list of words
+Mylist = sentance.split('')
+print(Mylist)
+
+# parse through list and append to new list
+Newlist = []
+for i in range(len(Mylist) - 1,-1, -1):
+  #print(i)
+  
+pass
+#Q2
+#Q3
+#Q4
+#Q5
+#Q6
+#Q7
+#Q8
+#Q9
+#Q10
+
