@@ -53,9 +53,31 @@ for i in order:
     return total
     pass
 #Q7
-
+ with open(filename) as fp:
+        return len(fp.readline()) - 1
+    pass
 #Q8
-
+with open(filename, 'w') as fp:
+        for line in lst:
+            if line.lower() == 'stop':
+                break
+            else:
+                fp.write('{}\n'.formatline)
+    pass
 #Q9
+def q9(miltime):
 
+    #print(miltime)
+    #print(type(miltime))
+    if miltime >= 301 and miltime <1200:
+        return 'Good Morning'
+    elif miltime >= 1201 and miltime <1600:
+        return 'Good Afternoon'
+    elif miltime >= 1600 and miltime <2059:
+        return 'Good Morning'
+    elif miltime >= 2100 and miltime <259:
+        return 'Good Morning'
+    else:
+        return "Good Night Chesty Puller, wherever you are"
+    pass
 #Q10
