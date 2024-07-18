@@ -64,18 +64,17 @@ with open(filename, 'w') as fp:
             else:
                 fp.write('{}\n'.formatline)
     pass
-#Q9
 def q9(miltime):
 
     #print(miltime)
     #print(type(miltime))
-    if miltime >= 301 and miltime <1200:
+    if miltime >= 301 and miltime < 1200:
         return 'Good Morning'
-    elif miltime >= 1201 and miltime <1600:
+    elif miltime >= 1201 and miltime < 1600:
         return 'Good Afternoon'
-    elif miltime >= 1600 and miltime <2059:
+    elif miltime >= 1600 and miltime < 2059:
         return 'Good Morning'
-    elif miltime >= 2100 and miltime <259:
+    elif miltime >= 2100 and miltime < 259:
         return 'Good Morning'
     else:
         return "Good Night Chesty Puller, wherever you are"
