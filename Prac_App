@@ -1,4 +1,4 @@
-#Q1
+#################################                   #Q1
 def q1(floatstr):
     
 #print(floatstr)
@@ -8,7 +8,7 @@ for i in floatstr.split(','):
     lst.append(float(i))
 return lst
 pass
-#Q2
+##################################                  #Q2
 def q2(*args):
     #print(args)
     #print(type(args))
@@ -19,7 +19,7 @@ def q2(*args):
     print(i)
     
 pass
-#Q3
+####################################                   #Q3
 def q3(lst,n):
 
 #print(lst)
@@ -29,7 +29,7 @@ def q3(lst,n):
 
     return lst[-n::]
     pass
-#Q4
+    ######################################                     #Q4
 def q4(strng):
   
     #print(str)
@@ -40,23 +40,23 @@ def q4(strng):
         lst.append(ord(i))
     return lst
     pass
-#Q5
+###########################################                  #Q5
     #print(strng)
     #print(type(strng))
     return tuple(strng.split())
     pass
-#Q6
+############################################                  #Q6
 total = 0
 for i in order:
     #print(catalog[i[0]])
     total += catalog[i[0]] * i[1]      
     return total
     pass
-#Q7
+###############################################                #Q7
  with open(filename) as fp:
         return len(fp.readline()) - 1
     pass
-#Q8
+            ################################################               #Q8
 with open(filename, 'w') as fp:
         for line in lst:
             if line.lower() == 'stop':
@@ -64,22 +64,22 @@ with open(filename, 'w') as fp:
             else:
                 fp.write('{}\n'.formatline)
     pass
+##################################################              #Q9
 def q9(miltime):
 
-    #print(miltime)
-    #print(type(miltime))
-    if miltime >= 301 and miltime < 1200:
-        return 'Good Morning'
-    elif miltime >= 1201 and miltime < 1600:
-        return 'Good Afternoon'
-    elif miltime >= 1600 and miltime < 2059:
-        return 'Good Morning'
-    elif miltime >= 2100 and miltime < 259:
-        return 'Good Morning'
-    else:
-        return "Good Night Chesty Puller, wherever you are"
-    pass
-#Q10
+#print(miltime)
+#print(type(miltime))
+     if miltime >= 301 and miltime < 1200:
+         return 'Good Morning'
+     elif miltime >= 1201 and miltime < 1600:
+          return 'Good Afternoon'
+     elif miltime >= 1600 and miltime < 2059:
+          return 'Good Evening'
+     else:
+          return 'Good Night'
+          pass
+
+###########################################                     #Q10
 def q10(numlist):
     
     #print(numlist)
