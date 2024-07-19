@@ -175,4 +175,11 @@ for i in numlist:
         return True
         pass
 
-                      
+##
+'a' .isnumeric()
+#returns-false
+'1' .isnumeric()
+#True-(has to be a string, an integer by its self is no good.
+ str(1).isnumeric()
+#True-Typecasting
+
